@@ -28,6 +28,9 @@ body::before {
   z-index: -1;
 }
 
+.text-shadow {
+  text-shadow: 0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black;
+}
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
@@ -205,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: #18d26e;
 }
 
 .mobile-nav {
@@ -332,6 +335,7 @@ section.section-show {
 section .container {
   background: rgba(0, 0, 0, 0.9);
   padding: 30px;
+  color: #aaaaaa;
 }
 
 @media (max-width: 768px) {
@@ -383,6 +387,9 @@ section .container {
   color: #18d26e;
 }
 
+.about-me .content p {
+  text-align: justify;
+}
 .about-me .content ul {
   list-style: none;
   padding: 0;
@@ -400,6 +407,10 @@ section .container {
 
 .about-me .content p:last-child {
   margin-bottom: 0;
+}
+
+.about-me span {
+  color: #18d26e;
 }
 
 /*--------------------------------------------------------------
