@@ -1089,7 +1089,7 @@ section .container {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
   position: fixed;
   left: 0;
   right: 0;
@@ -1148,6 +1148,7 @@ section .container {
 }
 
 .portfolio-details .portfolio-info p {
+  color: #aaaaaa;
   font-size: 15px;
   padding: 15px 0 0 0;
 }
